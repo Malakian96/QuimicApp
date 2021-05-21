@@ -8,16 +8,16 @@ const staticFileMiddleware = express.static(path.join(`${__dirname}/build`));
 
 app.use(staticFileMiddleware);
 app.use(history({
-    disableDotRule: true,
-    verbose: true,
+  disableDotRule: true,
+  verbose: true,
 }));
 app.use(staticFileMiddleware);
 
 app.get('/', (req, res) => {
-    res.render(path.join(`${__dirname}/dist/index.html`));
+  res.render(path.join(`${__dirname}/build/index.html`));
 });
 
 var server = app.listen(process.env.PORT || 8080, () => {
-    const { port } = server.address();
-    console.log('App now running on port', port);
+  const { port } = server.address();
+  console.log('App now running on port', port);
 });
