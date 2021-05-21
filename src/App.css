@@ -1,0 +1,52 @@
+body {
+  background-color: #fefcfb;
+}
+
+.landing,
+.usuarios,
+.grupos .practicas,
+.compuestos,
+.componentes {
+  display: flex;
+  height: 90vh;
+  align-items: center;
+  justify-content: center;
+  font-size: 3rem;
+}
+
+.swal-title {
+  font-family: "Lexend", "Arial";
+}
+
+.swal-text {
+  font-family: "Lexend", "Arial";
+}
+
+.swal-button {
+  background-color: #034078;
+  color: #fefcfb;
+  padding: 0.3rem 4rem;
+  border-radius: 0.15rem;
+  box-shadow: none !important;
+  width: 100%;
+  font-size: 16px;
+  font-family: "Lexend", "Arial";
+  font-weight: 200;
+}
+
+.swal-button:hover {
+  background-color: #1282a2 !important;
+  color: #fefcfb;
+}
+
+.swal-content__input {
+  border: 2px solid #1282a2 !important;
+  height: auto;
+  font-family: "Lexend";
+  border-radius: 0.25em;
+}
+
+.ant-space-horizontal {
+  display: flex;
+  flex-wrap: wrap;
+}

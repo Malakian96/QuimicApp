@@ -1,0 +1,16 @@
+
+
+
+https://www.youtube.com/watch?v=c_9c5zkfQ3Y&ab_channel=WornOffKeys
+
+
+https://www.chartjs.org/
+
+https://www.npmjs.com/package/react-chartjs-2 (npm install --save react-chartjs-2 chart.js)
+
+
+https://github.com/illuminate3/rakko
+
+npm i html2canvas
+
+npm i jspdf

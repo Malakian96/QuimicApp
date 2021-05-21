@@ -1,0 +1,9 @@
+.logged {
+  text-decoration: none !important;
+  color: unset !important;
+  margin-right: 40px;
+}
+
+span {
+  font-size: 80%;
+}
