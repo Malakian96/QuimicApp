@@ -1,3 +1,4 @@
+import React from "react";
 import SideNavBar from "../../../components/common/sideNav/SideNav";
 import SearchBar from "../../../components/searchBar/SearchBar";
 import Components from "../../../components/components/Components";

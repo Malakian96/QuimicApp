@@ -1,4 +1,4 @@
-// import React, { useState } from "react";
+import React from "react";
 import { SFooter } from "./Footer.styled";
 
 import { faCode } from "@fortawesome/free-solid-svg-icons";

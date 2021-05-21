@@ -1,4 +1,5 @@
 import React, { useState, useContext } from "react";
+import ReactDOM, { useHistory } from "react-router-dom";
 import {
   LoginLogo,
   EmailInput,
@@ -8,9 +9,9 @@ import {
   Link,
   Seccion,
 } from "./login.styled";
+
 import swal from "sweetalert";
 import axios from "../common/http/index";
-import { useHistory } from "react-router-dom";
 import { User } from "../../App";
 
 import carga from "../../assets/img/load/ajax-loader.gif";
